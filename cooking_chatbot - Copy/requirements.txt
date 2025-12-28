@@ -1,0 +1,6 @@
+flask
+pandas
+rapidfuzz
+pymongo
+python-dotenv
+gunicorn

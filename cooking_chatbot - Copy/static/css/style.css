@@ -1,0 +1,73 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(120deg, #f8f9fa, #e9ecef);
+}
+
+.container {
+    max-width: 540px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+input.form-control,
+textarea {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+select#suggestions {
+    max-height: 220px;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#output {
+    max-height: 260px;
+    overflow-y: auto;
+    white-space: pre-line;
+    border-radius: 10px;
+}
+
+#addDishSection {
+    transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus,
+input:focus {
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.4);
+    border-color: #86b7fe;
+}
+.ingredient-chip {
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 4px;
+    background-color: #e3f2fd;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+#favoritesPanel {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.badge-smart {
+    background-color: #ffc107;
+    color: #000;
+    font-size: 0.7rem;
+}
+.badge-advanced {
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 0.7rem;
+}
